@@ -1,0 +1,27 @@
+.loading {
+    height: 15px;
+}
+
+.bar {
+    width: 30px;
+    height: 10px;
+    background-color: #000;
+    animation-name: bar;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+}
+
+@keyframes bar {
+    0% {
+        width: 0px;
+    }
+
+    50% {
+        width: 100%;
+    }
+
+    100% {
+        width: 0px;
+    }
+}

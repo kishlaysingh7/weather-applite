@@ -1,0 +1,185 @@
+* {
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+
+#App {
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #7199da;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+input {
+  font-size: 18px;
+  padding: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  background-color: #fff;
+  border: 3px solid #000;
+}
+
+button {
+  font-size: 20px;
+  background-color: #fff;
+  border: 2px solid #000;
+}
+
+.card * {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
+
+.card {
+  background: url(./assets/th.jpg);
+  height: auto;
+  background-size: cover;
+  margin: 10px;
+  border: 0px;
+  box-shadow: 2px 2px 4px 2px #000;
+  border-radius: 5px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px;
+  width: 450px;
+  max-width: calc(100vw - 20px - 60px - 10px);
+}
+
+
+.card > .location {
+  max-width: 50%;
+}
+
+.card > .location > .city {
+  font-size: 30px;
+}
+
+.card > .location * {
+  margin: 6px;
+}
+.card > .location > .flex > .region {
+  font-size: 20px;
+}
+
+.card > .location > .flex > .country {
+  font-size: 25px;
+}
+
+.card > .location > .timed {
+  font-size: 13px;
+  font-weight: 900;
+}
+
+.card > .info > .condition > .status {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+
+@media (max-width:500px) {
+  .card {
+    flex-direction: column-reverse ;
+    margin: 10px auto;
+    align-items: center;
+    overflow: auto;
+  }
+
+  .card > .location > .timed {
+    font-size: 13px;
+    font-weight: 900;
+  }
+  
+
+  .card > .location {
+    max-width: 100%;
+    text-align: left;
+    margin: 10px 0px;
+    line-height: 35px;
+  }
+
+  .card > .location * {
+    margin: 0px;
+  }
+
+  .card > .location > .flex {
+    flex-direction: column;
+    line-height: 30px;
+  }
+
+  .card > .location > .city {
+    font-size: 38px;
+    margin-bottom: 10px;
+  }
+
+  .card > .location > .flex > .region {
+    font-size: 23px;
+  }
+  .card > .location > .flex > .country {
+    font-size: 20px;
+  }
+
+}
+
+
+.flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.temp {
+  font-size: 50px;
+}
+
+
+table > tbody {
+  text-align: left;
+}
+
+table > tbody > tr > td {
+  padding: 5px 8px;
+}
+
+.btn-save {
+  font-size: 18px;
+  padding: 10px;
+  border: 0px;
+  box-shadow: 0px 3px 3px 0px #004;
+  width: max-content;
+  font-weight: bold;
+  color: #006;
+  width: 100%;
+}
+
+.card-cover {
+  display: flex;
+  flex-direction: column;
+}
+
+img.linkb-icon {
+  height: 30px;
+  width: 60px;
+  margin-top: 200px;
+
+}
+
+img.wicon , #linkb {
+  width: 64px;
+  height: 64px
+}
+
+img.wicon , #linkb  {
+  max-width: 64px;
+  max-height: 64px;
+}
+
